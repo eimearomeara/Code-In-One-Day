@@ -1,0 +1,118 @@
+body{
+	background-color: #D3D3D3;
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+
+header{
+	height: 100px;
+	background-color: #ff6600;
+	color: white;
+}
+
+header h1{
+	margin: 0;
+	line-height: 100px;
+	text-align: center;
+}
+
+nav{
+	background-color: #333;
+	color: white;
+	height: 60px;
+}
+
+nav ul{
+	line-height: 60px;
+	margin: 0;
+	list-style: none;
+}
+
+nav ul li{
+	display: inline-block;
+	width: 25%;
+	font-size: 24px;
+}
+
+nav ul li:hover{
+	font-weight: 800;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.splash-image{
+	height: 450px;
+	background-image: url(../images/header.jpg);
+	background-size: cover;
+	/* fill 100% of the background with the image */
+	background-position: 0% 0%;
+	/*  dont repeat image */
+	background-repeat: no-repeat;
+}
+
+.main-content{
+	height: 400px;
+}
+
+.sidebar{
+	float: left;
+	width: 20%;	
+	min-height: 100%;
+	min-width: 80px;
+}
+
+.right-side{
+	float: right;
+	width: 75%;
+	min-width: 240px;
+}
+
+.right-side img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+.right-side p{
+	text-align: center;
+}
+
+.sidebar{
+	border-right: 2px solid black;
+}
+
+ul.more-links{
+	padding: 0;
+	margin-top: 75px;
+	list-style-type: none;
+	font-size: 40px;
+}
+
+ul.more-links li{
+	text-align: center;
+	line-height: 60px;
+}
+
+ul.more-links li:hover{
+	color: white;
+	background-color: #A9A9A9;
+}
+
+@media screen and (max-width: 580px){
+	nav{
+		margin: 0;
+		height: 260px;
+	}
+	nav ul{
+		padding-left: 0;
+	}
+	nav ul li{
+		width: 100%;
+		border-bottom: dotted 1px white;
+		text-align: center;
+	}
+}

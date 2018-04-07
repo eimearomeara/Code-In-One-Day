@@ -1,0 +1,36 @@
+article{
+	border: 1px solid gray;
+	margin: 20px;
+	padding: 20px;
+	background-color: white;
+}
+
+article h3{
+	font-style: italic;
+	margin-bottom: 0;
+}
+
+article .by-line{
+	font-size: 10px;
+}
+
+article a{
+	color: #f0592a;
+	text-decoration: none;
+	border: 1px solid #f0592a;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+article a:hover{
+	color: white;
+	background-color: #f0592a;
+}
+
+.more{
+	text-align: right;
+}
+
+footer{
+	text-align: center;
+}

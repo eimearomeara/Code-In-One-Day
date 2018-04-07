@@ -1,0 +1,17 @@
+
+header{
+	height: 450px;
+	background-color: #000000;
+	background-image: url(header.jpg);
+	background-size: cover;
+	/* fill 100% of the background with the image */
+	background-position: 100% 100%;
+	/*  dont repeat image */
+	background-repeat: no-repeat;
+}
+
+header h1{
+	line-height: 450px;
+	text-align: center;
+	color: white;
+}
